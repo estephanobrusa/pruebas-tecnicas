@@ -28,3 +28,22 @@ export  const CardBook = styled.div`
         box-shadow: 0px 0px 10px 0px #ffffff;
     }
 `;
+
+export const ContainerFilter = styled.div`
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+
+`;
+
+export const Select = styled.select`
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: transparent;
+  :focus{
+    outline: none;
+  }
+
+`;
