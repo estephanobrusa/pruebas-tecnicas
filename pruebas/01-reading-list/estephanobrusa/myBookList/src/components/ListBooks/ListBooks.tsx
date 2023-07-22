@@ -64,7 +64,7 @@ const ListBook = ({books = [], handleToggleBook, type }: ListBookProps) => {
             key={book.book.ISBN}
             onClick={() => handleToggleBook(book.book.ISBN, type)}
           >
-            <img src={book.book.cover} alt={book.book.title} />
+            <img src={book.book.cover} loading="lazy" width={100} height={100} alt={book.book.title} />
           </CardBook>
         ))}
       </BookBox>
